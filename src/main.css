@@ -4,10 +4,14 @@ body {
     align-items: center;
 }
 
-h1 {
-    color: red;
+button {
+   padding: 20px;
 }
 
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
 .cat {
     display: flex;
     flex-direction: column;
@@ -25,6 +29,47 @@ h1 {
 
 .cat-wrapper {
     width: 150px;
+}
+
+footer {
+    background-color: bisque;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    margin: 30px;
+}
+
+.fluffy-container fieldset {
+    padding: 10px;
+}
+
+input {
+    text-align: center;
+}
+
+legend {
+    margin: auto;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.name-container input, .name-container label {
+    padding: 10px;
+}
+
+.range-wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 
