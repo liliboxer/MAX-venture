@@ -13,20 +13,20 @@
     </header>
 
     <main>
-        <form>
+        <form id="user-sign-up">
             <h2>Take Max on an adventure! He's got nothing to do. 
                 Because he's a cat.
             </h2>
 
             <div class="name-container">
                 <label>Your Name: </label>
-                <input type="text" placeholder="Name">
+                <input id="name" type="text" placeholder="Name">
             </div>
 
             <fieldset>
                 <legend>Choose Your Max</legend>
 
-                <div class="cat-container">
+                <div id = "max=type"class="cat-container">
                     <div class="cat-wrapper">
                         <label class="cat">
                             <img class="cat-icon" src="./assets/adventure.png" alt="">
@@ -59,7 +59,7 @@
             </fieldset>
 
             <div class="fluffy-container">
-                <fieldset>
+                <fieldset id="fluff">
                     <legend>How fluffy are you?</legend>
                     <div class="range-wrapper">
                         <input id="fluff" type="range" min="1" max="10" required>
@@ -85,6 +85,8 @@
             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
         </div>
     </footer>
+
+    <script type="module" src="src/index.js"></script>
     
 </body>
 </html>
