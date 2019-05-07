@@ -1,1 +1,1 @@
-import '../src/make-user.js';
+import './make-user-test.js';

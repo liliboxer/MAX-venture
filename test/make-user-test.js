@@ -2,19 +2,19 @@ import makeUser from '../src/make-user.js';
 
 const test = QUnit.test;
 
-test('time to test a function', function(assert) {
+test('getting an object from form', function(assert) {
     //Arrange
     // Set up your parameters and expectations
     const formData = new FormData();
 
     formData.set('name', 'Lili');
     formData.set('cat', 'Max the napper');
-    formData.set('fluffy', 10);
+    formData.set('fluff', 10);
 
     const expected = {
         name: 'Lili',
         cat: 'Max the napper',
-        fluffy: 10,
+        fluff: 10,
         hp: 50,
         gold: 0
     };
