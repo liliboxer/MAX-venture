@@ -1,8 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     color: red;
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .cat-icon {
     width: 50px;
 }
+
+.cat-wrapper {
+    width: 150px;
+}
+
 
