@@ -1,6 +1,14 @@
 #avatar {
-    width: 50px;
+  width: 50px;
 }
 
-.profile {}
+.profile {
+    align-items: center;
+    border: 1px solid hsl(33, 60%, 46%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 30px;
+    width: 250px;
+}
 
