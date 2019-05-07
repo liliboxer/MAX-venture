@@ -20,6 +20,11 @@ button {
     justify-content: center;
     margin-bottom: 30px;
 }
+
+button:hover {
+    background-color: hsl(33, 60%, 46%);
+}
+
 .cat {
     display: flex;
     flex-direction: column;
@@ -48,7 +53,7 @@ fieldset {
 }
 
 footer {
-    background-color: bisque;
+    background-color: hsl(33, 60%, 46%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,6 +76,7 @@ form {
 h1 {
     font-family: 'Righteous', cursive;
     font-size: 70px;
+    margin: 30px;
 }
 
 h2 {
