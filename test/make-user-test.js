@@ -19,10 +19,12 @@ test('getting an object from form', function(assert) {
         gold: 0
     };
 
+    
     //Act 
     // Call the function you're testing and set the result to a const
     const user = makeUser(formData);
 
+ 
 
     //Assert
     assert.deepEqual(user, expected);

@@ -6,7 +6,7 @@ function makeUser(formData) {
         hp: 50,
         gold: 0
     };
-
+    console.log(user);
     return user;
 }
 

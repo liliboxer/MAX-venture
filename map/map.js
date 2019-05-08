@@ -12,4 +12,9 @@ if(!user) {
     window.location = './';
 }
 
-avatar.src = 'assets/' + 
+name.textContent = user.name;
+fluff.textContent = user.fluff;
+hp.textContent = user.hp;
+gold.textContent = user.gold;
+
+console.log(gold.textContent);
