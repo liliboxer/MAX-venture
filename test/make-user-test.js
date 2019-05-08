@@ -9,7 +9,7 @@ test('getting an object from form', function(assert) {
 
     formData.set('name', 'Lili');
     formData.set('cat', 'Max the napper');
-    formData.set('fluff', 10);
+    formData.set('fluff', '10');
 
     const expected = {
         name: 'Lili',
