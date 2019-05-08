@@ -13,8 +13,8 @@ if(!user) {
 }
 
 name.textContent = user.name;
-fluff.textContent = user.fluff;
-hp.textContent = user.hp;
-gold.textContent = user.gold;
+fluff.textContent = 'fluff: ' + user.fluff;
+hp.textContent = 'hp: ' + user.hp;
+gold.textContent = 'gold: ' + user.gold;
 
 console.log(gold.textContent);
