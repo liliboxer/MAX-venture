@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+button {
+   padding: 20px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: hsl(33, 60%, 46%);
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat-icon {
+    width: 50px;
+}
+
+.cat-wrapper {
+    width: 150px;
+}
+
+fieldset {
+    margin: 30px;
+}
+
+.fluffy-container fieldset {
+    padding: 10px;
+}
+
+footer {
+    background-color: hsl(33, 60%, 46%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin-top: 30px;
+}
+
+form {
+    background: rgba(238, 238, 238, 0.454);
+    display: flex;
+    flex-direction: column;
+    padding: 20px, 40px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 70px;
+    margin: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.home-body {
+    background-image: url('../assets/background-index.jpg');
+    background-size: cover;
+}
+
+.icon-copyright {
+    font-size: .8em;
+    margin-top: 60px;
+}
+
+input {
+    text-align: center;
+}
+
+legend {
+    margin: auto;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.name-container input, .name-container label {
+    padding: 10px;
+}
+
+.range-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+

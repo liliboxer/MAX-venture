@@ -4,10 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/index.css">
     <title>MAXventure</title>
 </head>
-<body>
-    <h1>MAXventure Time!</h1>
+<body class="home-body">
+    <header>
+        <h1>MAXventure Time!</h1>
+    </header>
+
+    <main>
+        <form id="user-sign-up">
+            <h2>Take Max on an adventure! He's got nothing to do. 
+                Because he's a cat.
+            </h2>
+
+            <div class="name-container">
+                <label>Your Name: </label>
+                <input id="name" type="text" placeholder="Name">
+            </div>
+
+            <fieldset>
+                <legend>Choose Your Max</legend>
+
+                <div id="max-type"class="cat-container">
+                    <div class="cat-wrapper">
+                        <label class="cat">
+                            <img class="cat-icon" src="./assets/adventure.png" alt="">
+                            <input type="radio" name="cat" value="adventure">
+                            Max the Adventurer
+                        </label>
+                    </div>
+                    <div class="cat-wrapper">
+                         <label class="cat">
+                             <img class="cat-icon" src="./assets/cuddler.png" alt="">
+                             <input type="radio" name="cat" value="cuddler">
+                             Max the Cuddler
+                         </label>
+                    </div>
+                    <div class="cat-wrapper">
+                        <label class="cat">
+                            <img class="cat-icon" src="./assets/napper.png" alt="">
+                            <input type="radio" name="cat" value="napper">
+                            Max the Napper
+                        </label>
+                    </div>
+                    <div class="cat-wrapper">
+                        <label class="cat">
+                            <img class="cat-icon" src="./assets/hunter.png" alt="">
+                            <input type="radio" name="cat" value="hunter">
+                            Max the Hunter
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="fluffy-container">
+                <fieldset id="fluff-field">
+                    <legend>How fluffy are you?</legend>
+                    <div class="range-wrapper">
+                        <input id="fluff" name="fluff" type="range" min="1" max="10" value="fluff" required>
+                        <span id="fluff-display">5</span>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div class="button-wrapper">
+                <button>Let's Play!</button>
+            </div>
+            
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy Lili Boxer 2019</p>
+        <div class="icon-copyright">
+            Icons made by <a href="https://www.freepik.com/" 
+            title="Freepik">Freepik</a> from 
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
+            <a href="http://creativecommons.org/licenses/by/3.0/"
+            title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </div>
+    </footer >
+
+    <script type="module" src="src/index.js"></script>
     
 </body>
 </html>

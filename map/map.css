@@ -1,0 +1,28 @@
+#avatar {
+  width: 50px;
+}
+
+nav {
+    margin: 30px auto;
+}
+
+.profile {
+    align-items: center;
+    border: 1px solid hsl(33, 60%, 46%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 30px;
+    width: 250px;
+}
+
+.quest-img {
+    width: 300px;
+}
+
+.quest-wrapper {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-between;
+}
