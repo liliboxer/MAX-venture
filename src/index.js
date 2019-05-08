@@ -18,5 +18,5 @@ userSignUp.addEventListener('submit', () => {
 
     api.signUp(user);
 
-    window.location = '../map/map.html';
+    window.location = '../../map.html';
 });
