@@ -1,4 +1,4 @@
-import api from '../src/api.js';
+import api from './api.js';
 
 const name = document.getElementById('name');
 const avatar = document.getElementById('avatar');
