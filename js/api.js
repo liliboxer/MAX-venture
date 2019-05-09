@@ -13,7 +13,7 @@ const api = {
         return user;
     },
     getQuests() {
-       return questData;
+        return questData;
     }
 };
 
