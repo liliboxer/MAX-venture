@@ -55,7 +55,7 @@ const bedroom = {
 
 const outdoors = {
     id: 'outdoors',
-    title: 'The Great Outdoors',
+    title: 'Quest 3: The Great Outdoors',
     description: `Oh, the front yard. So close yet far away. But now is your chance to 
     be out there! Free! Like the wild kitty you were meant to be`,
     choices: [{

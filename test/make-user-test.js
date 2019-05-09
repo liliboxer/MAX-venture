@@ -18,8 +18,6 @@ test('getting an object from form', function(assert) {
         hp: 50,
         gold: 0
     };
-
-    console.log(expected);
     
     //Act 
     // Call the function you're testing and set the result to a const
