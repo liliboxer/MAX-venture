@@ -1,4 +1,4 @@
-import api from '../src/api.js';
+import api from '../js/api.js';
 
 const test = QUnit.test;
 

@@ -1,4 +1,4 @@
-import makeUser from '../src/make-user.js';
+import makeUser from '../js/make-user.js';
 
 const test = QUnit.test;
 
@@ -19,12 +19,11 @@ test('getting an object from form', function(assert) {
         gold: 0
     };
 
+    console.log(expected);
     
     //Act 
     // Call the function you're testing and set the result to a const
     const user = makeUser(formData);
-
- 
 
     //Assert
     assert.deepEqual(user, expected);
