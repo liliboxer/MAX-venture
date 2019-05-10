@@ -8,7 +8,7 @@ const quests = api.getQuests();
 
 const nav = document.getElementById('quest-options');
 
-for (let i = 0; i < quests.length; i++) {
+for(let i = 0; i < quests.length; i++) {
     const quest = quests[i];
     const link = createQuestLink(quest);
     nav.appendChild(link);

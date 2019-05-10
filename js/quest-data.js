@@ -1,6 +1,6 @@
 const livingRoom = {
     id: 'living-room',
-    title: 'The Living Room',
+    title: 'Quest 1: The Living Room',
     description: `The living room is a wonderous place with lots to offer. Let's explore!`,
     choices: [{
         id: 'race',
@@ -26,7 +26,7 @@ const livingRoom = {
 
 const bedroom = {
     id: 'bedroom',
-    title: 'The Bedroom',
+    title: 'Quest 2: The Bedroom',
     description: `Your homebase. Your safe space. Let's see what shennanigans you can get up to.`,
     choices: [{
         id: 'closet',
