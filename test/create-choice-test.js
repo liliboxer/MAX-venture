@@ -3,7 +3,7 @@ import createChoice from '../js/create-choice.js';
 
 const test = QUnit.test;
 
-QUnit.module('quest');
+QUnit.module('choice');
 
 api.storage = sessionStorage;
 
