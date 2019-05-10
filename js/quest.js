@@ -25,4 +25,4 @@ for(let i = 0; i < quest.choices.length; i++) {
     const questions = createChoice(choice);
     choiceForm.appendChild(questions);
     
-};
+}
