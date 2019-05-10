@@ -19,3 +19,10 @@ const result = document.getElementById('result');
 title.textContent = quest.title;
 image.src = './assets/' + quest.id + '.jpg';
 description.textContent = quest.description;
+
+for(let i = 0; i < quest.choices.length; i++) {
+    const choice = quest.choices[i];
+    const questions = createChoice(choice);
+    choiceForm.appendChild(questions);
+    
+};

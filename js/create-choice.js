@@ -14,7 +14,6 @@ function createChoice(choice) {
     div.appendChild(input);
     return div;
 
-
 }
 
 export default createChoice;
