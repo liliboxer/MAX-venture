@@ -23,7 +23,7 @@ test('signUp sets user and returns on getter', function(assert) {
 
     //Act 
     // Call the function you're testing and set the result to a const
-    api.signUp(user);
+    api.saveUser(user);
     const result = api.getUser();
 
     //Assert
