@@ -1,0 +1,29 @@
+button {
+    margin: 30px;
+}
+
+form {
+    background: white;
+    margin-bottom: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+}
+
+#result {
+    border: 1px solid hsl(33, 60%, 46%);
+    margin-bottom: 30px;
+    padding: 15px;
+
+}
+
+.hidden {
+    display: none;
+}

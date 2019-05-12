@@ -9,14 +9,13 @@ fluffRange.addEventListener('change', () => {
     fluffDisplay.textContent = fluffRange.value;
 });
 
-
 userSignUp.addEventListener('submit', () => {
     event.preventDefault();
 
     const formData = new FormData(userSignUp);
     const user = makeUser(formData);
 
-    api.signUp(user);
+    api.saveUser(user);
 
-    window.location = '../map/map.html';
+    window.location = '../../map.html';
 });

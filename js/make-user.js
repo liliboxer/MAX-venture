@@ -6,10 +6,14 @@ function makeUser(formData) {
         cat: formData.get('cat'),
         fluff: fluff,
         hp: 50,
-        gold: 0
+        gold: 0,
+        completed: {
+            livingroom: false,
+            bedroom: false,
+            outdoors: false
+        }
     };
     return user;
 }
 
 export default makeUser;
-
