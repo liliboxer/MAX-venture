@@ -27,7 +27,6 @@ for(let i = 0; i < quest.choices.length; i++) {
     const choice = quest.choices[i];
     const questions = createChoice(choice);
     choiceForm.appendChild(questions);
-    
 }
 
 choiceForm.addEventListener('submit', (event) => {
@@ -44,7 +43,19 @@ choiceForm.addEventListener('submit', (event) => {
     api.saveUser(scoreQuest(user, choice, quest.id));
     loadProfile();
 
-    console.log(user);
+    const completedQuestValues = Object.values(user.completed);
+    let allQuestsAreCompleted = true;
 
+    for(let i = 0; i < completedQuestValues.length; i++) {
+        const completed = completedQuestValues[i];
+        
+        if(!completed){
+            allQuestsAreCompleted = false;
+            break;
+        }
+    }
 
+    if(allQuestsAreCompleted) {
+        window.location = 'end.html';
+    }
 });

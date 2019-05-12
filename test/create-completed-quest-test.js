@@ -7,7 +7,7 @@ const test = QUnit.test;
 test('creates completed link', (assert) => {
     // arrange
     const quest = {
-        id: 'living-room',
+        id: 'livingroom',
         title: 'Quest 1: The Living Room',
     };
 
