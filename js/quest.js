@@ -41,10 +41,10 @@ choiceForm.addEventListener('submit', (event) => {
     result.classList.remove('hidden');
     resultMessage.textContent = choice.result;
 
-    api.saveUser(scoreQuest(user, choice));
+    api.saveUser(scoreQuest(user, choice, quest.id));
     loadProfile();
 
-    // console.log(choice.result);
+    console.log(user);
 
 
 });

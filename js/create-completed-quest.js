@@ -1,21 +1,10 @@
-import createCompletedQuest from '../test/create-completed-quest-test.js';
+function createCompletedQuest(quest) {
+    const span = document.createElement('span');
+    span.classList.add('quest');
+    span.classList.add('completed');
 
-QUnit.module('quest');
+    span.textContent = quest.title;
+    return span;
+}
 
-const test = QUnit.test;
-
-test('creates completed link', (assert) => {
-    // arrange
-    const quest = {
-        id: 'living-room',
-        title: 'Quest 1: The Living Room',
-    };
-
-    const expected = '<span class="quest completed">Quest 1: The Living Room</span>';
-
-    // act
-    const dom = createCompletedQuest(quest);
-
-    // assert
-    assert.equal(dom.outerHTML, expected);
-});
+export default createCompletedQuest;

@@ -2,28 +2,28 @@ import api from './api.js';
 import loadProfile from './load-profile.js';
 import createQuestLink from './create-quest-link.js';
 import makeUser from './make-user.js';
-// import createCompletedQuest from './create-completed-quest.js';
+import createCompletedQuest from './create-completed-quest.js';
 
 
 loadProfile();
 
 const quests = api.getQuests();
+const user = api.getUser();
 
 const nav = document.getElementById('quest-options');
 
 for(let i = 0; i < quests.length; i++) {
     const quest = quests[i];
-    const link = createQuestLink(quest);
-    nav.appendChild(link);
-    
+
     let dom;
-    if(makeUser.completed[quest.id]) {
+    if(user.completed[quest.id]) {
         dom = createCompletedQuest(quest);
-    } else {
+    }
+    else {
         dom = createQuestLink(quest);
     }
-    
-    quests.append(dom);
+    nav.appendChild(dom);
+
 }
 
 

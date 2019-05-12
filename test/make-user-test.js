@@ -18,9 +18,9 @@ test('getting an object from form', function(assert) {
         hp: 50,
         gold: 0,
         completed: {
-            quest1: false,
-            quest2: false,
-            quest3: false
+            livingroom: false,
+            bedroom: false,
+            outdoors: false
         }
     };
     
