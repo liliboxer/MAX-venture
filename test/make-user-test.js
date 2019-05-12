@@ -17,7 +17,11 @@ test('getting an object from form', function(assert) {
         fluff: 10,
         hp: 50,
         gold: 0,
-        completed: {}
+        completed: {
+            quest1: false,
+            quest2: false,
+            quest3: false
+        }
     };
     
     //Act 

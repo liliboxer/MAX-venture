@@ -15,14 +15,15 @@ for(let i = 0; i < quests.length; i++) {
     const quest = quests[i];
     const link = createQuestLink(quest);
     nav.appendChild(link);
-
-
     
-}let dom;
-if(makeUser.completed[quest.id]) {
-    dom = createCompletedQuest(quest);
-} else {
-    dom = createQuestLink(quest);
+    let dom;
+    if(makeUser.completed[quest.id]) {
+        dom = createCompletedQuest(quest);
+    } else {
+        dom = createQuestLink(quest);
+    }
+    
+    quests.append(dom);
 }
 
-quests.append
+

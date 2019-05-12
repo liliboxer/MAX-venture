@@ -17,7 +17,11 @@ test('scores quest', function(assert) {
     const user = {
         hp: 50,
         gold: 0,
-      
+        completed: {
+            quest1: false,
+            quest2: false,
+            quest3: false
+        }
       
     };
 
@@ -31,12 +35,16 @@ test('scores quest', function(assert) {
     const expected = {
         hp: 45,
         gold: 10,
-     
+        completed: {
+            quest1: true,
+            quest2: false,
+            quest3: false
+        },
     };
 
     //Act 
     // Call the function you're testing and set the result to a const
-    const result = scoreQuest(user, choices);
+    const result = scoreQuest(user, choices, "quest1");
 
     //Assert
     assert.deepEqual(result, expected);

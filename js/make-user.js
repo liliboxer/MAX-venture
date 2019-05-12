@@ -7,7 +7,11 @@ function makeUser(formData) {
         fluff: fluff,
         hp: 50,
         gold: 0,
-        completed: {}
+        completed: {
+            quest1: false,
+            quest2: false,
+            quest3: false
+        }
     };
     return user;
 }
