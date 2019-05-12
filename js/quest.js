@@ -58,4 +58,6 @@ choiceForm.addEventListener('submit', (event) => {
     if(allQuestsAreCompleted) {
         window.location = 'end.html';
     }
+
+    
 });

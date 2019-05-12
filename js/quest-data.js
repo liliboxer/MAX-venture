@@ -1,5 +1,5 @@
 const livingRoom = {
-    id: 'living-room',
+    id: 'livingroom',
     title: 'Quest 1: The Living Room',
     description: `The living room is a wonderous place with lots to offer. Let's explore!`,
     choices: [{
@@ -38,10 +38,8 @@ const bedroom = {
     }, {
         id: 'plant',
         description: `You get a little bored and investigate the house plant`,
-        result: `While the plant can't fight back, you begin chomping on it and realize it's a horrid flavor. Yuck! You
-        do find a little critter on one of the leaves to become your friend!`,
-        hp: -5,
-        gold: 10
+        hp: -100,
+        gold: 0
     }, {
         id: 'food', 
         description: `You much on your food`,
