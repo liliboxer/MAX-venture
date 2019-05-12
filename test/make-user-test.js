@@ -16,7 +16,8 @@ test('getting an object from form', function(assert) {
         cat: 'Max the napper',
         fluff: 10,
         hp: 50,
-        gold: 0
+        gold: 0,
+        completed: {}
     };
     
     //Act 

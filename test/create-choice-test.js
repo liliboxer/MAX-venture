@@ -17,7 +17,7 @@ test('createChoice returns DOM elements', function(assert) {
         description: 'you like cats'
     };
 
-    const expected = `<div><label>you like cats</label><input type="radio" name="cats" value="cats" id="cats"></div>`;
+    const expected = `<div><label>you like cats</label><input type="radio" name="choiceButtons" value="cats" id="cats"></div>`;
 
     const result = createChoice(choice);
 

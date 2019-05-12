@@ -16,17 +16,22 @@ test('scores quest', function(assert) {
     // Set up your parameters and expectations
     const user = {
         hp: 50,
-        gold: 0
+        gold: 0,
+      
+      
     };
 
     const choices = {
         hp: -5,
-        gold: 10
+        gold: 10,
+     
+        
     };
 
     const expected = {
         hp: 45,
-        gold: 10
+        gold: 10,
+     
     };
 
     //Act 
