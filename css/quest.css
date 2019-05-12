@@ -4,6 +4,7 @@ button {
 
 form {
     background: white;
+    margin-bottom: 30px;
 }
 
 section {
@@ -21,4 +22,8 @@ img {
     margin-bottom: 30px;
     padding: 15px;
 
+}
+
+.hidden {
+    display: none;
 }
