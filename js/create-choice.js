@@ -7,7 +7,7 @@ function createChoice(choice) {
     div.appendChild(label);
 
     input.setAttribute('type', 'radio');
-    input.name = choice.id;
+    input.name = 'choiceButtons';
     input.value = choice.id,
     input.id = choice.id;
 
