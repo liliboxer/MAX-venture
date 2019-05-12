@@ -26,7 +26,7 @@ description.textContent = quest.description;
 for(let i = 0; i < quest.choices.length; i++) {
     const choice = quest.choices[i];
     const questions = createChoice(choice);
-    choiceForm.appendChild(questions);
+    choiceForm.prepend(questions);
 }
 
 choiceForm.addEventListener('submit', (event) => {
