@@ -1,5 +1,5 @@
 const livingRoom = {
-    id: 'livingroom',
+    id: 'living-room',
     title: 'Quest 1: The Living Room',
     description: `The living room is a wonderous place with lots to offer. Let's explore!`,
     choices: [{
