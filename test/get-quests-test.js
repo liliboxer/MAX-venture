@@ -12,15 +12,9 @@ QUnit.testStart(() => {
 });
 
 test('returns quest data', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
     const expected = questData;
 
-    //Act 
-    // Call the function you're testing and set the result to a const
     const quests = api.getQuests();
 
-    //Assert
     assert.deepEqual(quests, expected);
-
 });

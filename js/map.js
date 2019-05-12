@@ -1,9 +1,7 @@
 import api from './api.js';
 import loadProfile from './load-profile.js';
 import createQuestLink from './create-quest-link.js';
-import makeUser from './make-user.js';
 import createCompletedQuest from './create-completed-quest.js';
-
 
 loadProfile();
 
@@ -23,7 +21,4 @@ for(let i = 0; i < quests.length; i++) {
         dom = createQuestLink(quest);
     }
     nav.appendChild(dom);
-
 }
-
-

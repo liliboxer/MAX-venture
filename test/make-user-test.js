@@ -3,8 +3,6 @@ import makeUser from '../js/make-user.js';
 const test = QUnit.test;
 
 test('getting an object from form', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
     const formData = new FormData();
 
     formData.set('name', 'Lili');
@@ -23,11 +21,8 @@ test('getting an object from form', function(assert) {
             outdoors: false
         }
     };
-    
-    //Act 
-    // Call the function you're testing and set the result to a const
+
     const user = makeUser(formData);
 
-    //Assert
     assert.deepEqual(user, expected);
 });

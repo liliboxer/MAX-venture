@@ -12,8 +12,6 @@ QUnit.testStart(() => {
 });
 
 test('scores quest', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
     const user = {
         hp: 50,
         gold: 0,
@@ -22,14 +20,11 @@ test('scores quest', function(assert) {
             quest2: false,
             quest3: false
         }
-      
     };
 
     const choices = {
         hp: -5,
         gold: 10,
-     
-        
     };
 
     const expected = {
@@ -42,11 +37,7 @@ test('scores quest', function(assert) {
         },
     };
 
-    //Act 
-    // Call the function you're testing and set the result to a const
-    const result = scoreQuest(user, choices, "quest1");
+    const result = scoreQuest(user, choices, 'quest1');
 
-    //Assert
     assert.deepEqual(result, expected);
-
 });

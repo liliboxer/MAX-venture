@@ -9,10 +9,7 @@ QUnit.testStart(() => {
     sessionStorage.clear();
 });
 
-
 test('signUp sets user and returns on getter', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
     const user = {
         name: 'Lili',
         cat: 'Max the napper',
@@ -21,11 +18,8 @@ test('signUp sets user and returns on getter', function(assert) {
         gold: 0
     };
 
-    //Act 
-    // Call the function you're testing and set the result to a const
     api.saveUser(user);
     const result = api.getUser();
 
-    //Assert
     assert.deepEqual(result, user);
 });

@@ -12,11 +12,9 @@ QUnit.testStart(() => {
 });
 
 test('gets quest by ID and returns quest', function(assert) {
-    // arrange
     const expectedQuest = questData[1];
-    // act
-    const foundQuest = api.getQuest(expectedQuest.id);
-    // assert
-    assert.deepEqual(foundQuest, expectedQuest);
 
+    const foundQuest = api.getQuest(expectedQuest.id);
+
+    assert.deepEqual(foundQuest, expectedQuest);
 });

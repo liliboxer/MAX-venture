@@ -11,7 +11,6 @@ function createQuestLink(quest) {
     link.textContent = quest.title;
 
     return h3;
-    
 }
 
 export default createQuestLink;

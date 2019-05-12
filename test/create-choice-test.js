@@ -22,5 +22,4 @@ test('createChoice returns DOM elements', function(assert) {
     const result = createChoice(choice);
 
     assert.equal(result.outerHTML, expected);
-
 });

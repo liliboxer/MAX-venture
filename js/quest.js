@@ -54,10 +54,8 @@ choiceForm.addEventListener('submit', (event) => {
             break;
         }
     }
-
+    
     if(allQuestsAreCompleted) {
         window.location = 'end.html';
     }
-
-    
 });

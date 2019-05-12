@@ -9,7 +9,6 @@ fluffRange.addEventListener('change', () => {
     fluffDisplay.textContent = fluffRange.value;
 });
 
-
 userSignUp.addEventListener('submit', () => {
     event.preventDefault();
 
